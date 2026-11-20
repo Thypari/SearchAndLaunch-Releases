@@ -44,12 +44,20 @@ When several reports have similar names, compare their folders, sizes, and modif
   <a href="https://raw.githubusercontent.com/Thypari/SearchAndLaunch-Releases/main/media/workspace-dark.png"><img src="media/workspace-dark.png" width="370" alt="Dark Workspace showing the same reports, with folder and extension filters above the table."></a>
 </p>
 
-### Picking a file in an Open dialog
+### Searching the current folder in File Explorer
 
-Here the search panel sits beneath the dialog. Choose **Use in dialog** to pass the selected report back to it. The magnifier beside **File name** hides or shows the panel.
+With File Explorer active, click the magnifier in its upper-right search box or press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd>. In this example, `report` searches **Example projects** and its subfolders. Press <kbd>Enter</kbd> on **Quarterly reports** to go straight to that folder inside **Finance** in the same Explorer window.
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Thypari/SearchAndLaunch-Releases/main/media/open-dialog.png"><img src="media/open-dialog.png" width="700" alt="Windows Open dialog with an attached search panel showing three reports and a Use in dialog button."></a>
+  <a href="https://raw.githubusercontent.com/Thypari/SearchAndLaunch-Releases/main/media/file-explorer.png"><img src="media/file-explorer.png" width="900" alt="File Explorer open to Example projects. An attached panel beneath the upper-right search box shows four matches for report, with the Quarterly reports folder selected."></a>
+</p>
+
+### Picking a file in an Open dialog
+
+The **Open** dialog shows the top-level folders in **Example projects**. Search for `report` in the panel below it and choose **Use in dialog** to open **Quarterly report.pdf** from **Finance**. The button beside **File name** shows or hides the panel.
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Thypari/SearchAndLaunch-Releases/main/media/open-dialog.png"><img src="media/open-dialog.png" width="800" alt="Full Windows Open dialog showing its folder list, File name field, and Open and Cancel buttons. The attached panel below has Quarterly report.pdf selected and a Use in dialog button."></a>
 </p>
 
 ## Install and update
